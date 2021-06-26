@@ -1,0 +1,178 @@
+/*
+ *画面のスタイルシート
+ */
+
+html{
+    font-size: 100%;
+}
+
+body{
+    max-width: 100%;
+    font-family: "Noto Sans JP","sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+/*
+ * headerのスタイルシート
+ */
+
+ .header-icon{
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    font-size: 15px;
+    align-items: baseline;
+    border-bottom: solid 2px #188818;
+ }
+
+ .header-icon li {
+    margin-right: 30px;
+    height: 100%;
+}
+
+.box-profile {
+    display: flex;
+    width: 100%;
+    margin: 70px auto;
+    align-items:center;
+}
+
+.profile-name {
+    margin: 0 50px;
+}
+
+.main-name{
+    font-size: 100px;
+    margin: 0;
+    line-height: .9em;
+}
+
+.sub-name{
+    margin: 20px;
+    line-height: 20px;
+    color:#188818;
+}
+
+.class-img{
+    width: 500px;
+    min-width: 100px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.main-about{
+    text-align: center;
+    background-color: #188818;
+}
+
+.about-h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.main-icon{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.main-icon li {
+    margin-right: 22px;
+}
+
+.main-icon li:last-child {
+    margin-right: 0;
+}
+
+.projects-name {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.projects-name h2 {
+    color:#188818;
+}
+
+.projects-list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.img-change {
+    padding: 30px;
+    border: solid 2px #188818;
+    margin:0 20px;
+}
+
+.projects-img {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-img a {
+    background-color: #188818;
+    font-size: 15px;
+    margin:0 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+    border: black 1px solid;
+}
+
+.main-contact {
+}
+
+.main-contact ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 0;
+}
+
+.main-contact li {
+    width: 400px;
+    margin: 0 100px;
+    padding: 10px 0;
+    background-color: rgb(207, 207, 207);
+}
+
+.contact-name{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.contact-name span {
+    color: #188818;
+}
+
+.mailname {
+    color: #188818;
+    border-bottom: 3px dotted #188818;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+/*
+ *　スマホ用のスタイルシート
+ */
+
+ @media screen and (max-width: 767px) {
+    body{
+        min-width: 100%;
+    }
